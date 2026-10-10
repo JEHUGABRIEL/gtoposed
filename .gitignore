@@ -1,0 +1,17 @@
+# dépendances et build
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# déploiement
+.vercel/
+
+# environnement
+.env
+.env*.local
+
+# outillage local / système
+.agents/
+.DS_Store
